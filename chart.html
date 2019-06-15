@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>RESTful Routes</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+    </head>
+    <body>
+       <div class="container">
+           <div class="row">
+               <div class="col-lg-1"></div>
+               <div class="col-lg-10">
+                    <div class="jumbotron">
+                        <h1>RESTful Routes</h1>
+                        <p>A table of all 7 RESTful Routes</p>
+                    </div>
+                    <table class="table table-bordered table-hover">
+                        <thead>
+                            <tr>
+                                <th>Name</th>
+                                <th>Path</th>
+                                <th>HTTP Verb</th>
+                                <th>Purpose</th>
+                                <th>Mongoose Method</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>INDEX</td>
+                                <td>/blogs</td>
+                                <td>GET</td>
+                                <td>Index routes - show all blogs</td>
+                                <td>Blogs.find({})</td>
+                            </tr>
+                            <tr class="success">
+                                <td>NEW</td>
+                                <td>/blogs/new</td>
+                                <td>GET</td>
+                                <td>show form to add new blog</td>
+                                <td>N/A</td>
+                            </tr>
+                            <tr class="success">
+                                <td>CREATE</td>
+                                <td>/blogs</td>
+                                <td>POST</td>
+                                <td>create new blog then redirect</td>
+                                <td>Blogs.create()</td>
+                            </tr>
+                            <tr class="info">
+                                <td>SHOW</td>
+                                <td>/blogs/:id</td>
+                                <td>GET</td>
+                                <td>show information of a particular blog</td>
+                                <td>Blogs.findById()</td>
+                            </tr>
+                            <tr class="warning">
+                                <td>EDIT</td>
+                                <td>/blogs/:id/edit</td>
+                                <td>GET</td>
+                                <td>show edit form to edit a particular blog</td>
+                                <td>Blogs.findById()</td>
+                            </tr>
+                            <tr class="warning">
+                                <td>UPDATE</td>
+                                <td>/blogs/:id</td>
+                                <td>PUT</td>
+                                <td>update the edited blog and then redirect</td>
+                                <td>Blogs.findByIdAndUpdate()</td>
+                            </tr>
+                            <tr class="danger">
+                                <td>DESTROY</td>
+                                <td>/blogs/:id</td>
+                                <td>DELETE</td>
+                                <td>delete a particular blog and then redirect</td>
+                                <td>Blogs.findByIdAndRemove()</td>
+                            </tr>
+                        </tbody>
+                    </table>
+               </div>
+               <div class="col-lg-1"></div>
+           </div>
+       </div>
+    </body>
+</html>
