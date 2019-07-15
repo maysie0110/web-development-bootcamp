@@ -1,0 +1,64 @@
+
+.image {
+  width: 100%;
+  height: 250px;
+  background-size: cover;
+  background-position: center;
+}
+
+.image1{
+	background-image: url(https://source.unsplash.com/K5dSAeM0ycc);
+}
+.image2{
+	background-image: url(https://source.unsplash.com/cPF2nlWcMY4);
+}
+
+.image3{
+	background-image: url(https://source.unsplash.com/KCRWip23ol0);
+}
+
+.image4{
+	background-image: url(https://source.unsplash.com/4nc5y7JX5sY);
+}
+
+.image5{
+	background-image: url(https://source.unsplash.com/W4S6yfaP8_s);
+}
+
+.image6{
+	background-image: url(https://source.unsplash.com/goAZJ_s2d94);
+}
+.image7{
+	background-image: url(https://source.unsplash.com/3WxdHN8JY8Q);
+}
+.image8{
+	background-image: url(https://source.unsplash.com/4qVULTNoo9E);
+}
+.image9{
+	background-image: url(https://source.unsplash.com/VIuZnc0CtPM);
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+body{
+	padding-top: 70px;
+}
+.jumbotron{
+	color: #2c3e50;
+	background: #ecf0f1;
+}
+.navbar-inverse{
+	background: #2c3e50;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: white;
+}
+.navbar-inverse .navbar-brand {
+    color: white;
+}
+/*<i class="fas fa-camera-retro"></i>*/
+/*<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">*/

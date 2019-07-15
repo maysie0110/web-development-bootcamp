@@ -1,0 +1,10 @@
+.correct{
+    color: green;
+}
+.wrong{
+    color:red;
+}
+.done{
+    color:gray;
+    text-decoration: line-through;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form Demo</title>
+</head>
+<body>
+
+<h1>Login</h1>
+<!-- action- where the data sent to
+method- what HTTP method (GET or POST) -->
+<form>
+	<label for="email">Email:</label>
+	<input id="email" type="Email" placeholder ="email" required>
+	
+	<label for="password">Password:</label>
+	<input id="password" type="password" placeholder="password" required>
+	
+	<input type="submit">
+</form>
+
+<p>Do you prefer cats or dogs?</p>
+<form>
+	<label for="dogs">Dogs:</label>
+	<input name="petChoice" id="dogs" type="radio" value="DOGS">
+
+	<label for="cats">Cats:</label>
+	<input name="petChoice" id="cats" type="radio" value="CATS">
+
+	<p>What is your current mood?</p>
+	<select name="mood">
+		<option value="happy">:)</option>
+		<option value="neutral">:|</option>
+		<option value="sad">:(</option>
+	</select>
+
+	<textarea rows="10" cols="50"></textarea>
+
+	<button>Go!</button>
+</form>
+</body>
+</html>
