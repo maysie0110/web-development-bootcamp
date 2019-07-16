@@ -9,18 +9,16 @@ This is a collection of courseworks I've done through Colt Steele's Udemy Web De
 
 ### Bootstrap 3 & 4
 
+### JavaScript 
+### jQuery
+- JS Framework
 
 ## Back-end Development
-
-### JavaScript 
 
 ### DOM Manipulation
 
 Manipulate the DOM with vanilla JS
 Manipulate the DOM using jQuery
-
-### jQuery
-
 
 ### Node.js
 
